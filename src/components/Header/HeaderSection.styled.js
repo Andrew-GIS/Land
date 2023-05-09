@@ -33,7 +33,8 @@ height: 38px;
   }
 `;
 
-export const LogoText = styled.h1`
+export const LogoText = styled.h2`
+color: #FFFFFF;
 font-family: 'Open Sans';
 font-style: normal;
 font-weight: 400;
@@ -68,6 +69,7 @@ margin: 0px 22px 0px 22px;
 `;
 
 export const ListItem = styled.li`
+color: #FFFFFF;
 font-family: 'Open Sans';
 font-style: normal;
 font-weight: 400;
@@ -86,6 +88,7 @@ line-height: 22px;
 
 export const ListLink = styled.a`
 text-decoration: none;
+
 :hover {
 	color: #28A745;
 }
