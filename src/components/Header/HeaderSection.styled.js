@@ -69,7 +69,7 @@ margin: 0px 22px 0px 22px;
 `;
 
 export const ListItem = styled.li`
-color: #FFFFFF;
+//color: #FFFFFF;
 font-family: 'Open Sans';
 font-style: normal;
 font-weight: 400;
@@ -88,7 +88,7 @@ line-height: 22px;
 
 export const ListLink = styled.a`
 text-decoration: none;
-
+color: #FFFFFF;
 :hover {
 	color: #28A745;
 }

@@ -5,12 +5,13 @@ z-index: -1;
 position: absolute;
 top: 0;
 left: 0;
+width: 100%;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 
-background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/showcase.png");
+background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/public/showcase.png");
 // background-repeat: no-repeat;
 // background-position: 50% 50%;
 // background-size: cover;
@@ -29,10 +30,16 @@ line-height: 54px;
 text-align: center;
 margin: 160px 40px 16px 40px;
 color: #FFFFFF;
-// @media (min-width: 768px) {
-// 	font-size: 35px;
-// 	line-height: 48px;
-// }
+@media (min-width: 768px) {
+	font-size: 55px;
+	line-height: 75px;
+	margin: 378px 123px 16px 122px;
+}
+@media (min-width: 1360px) {
+	font-size: 55px;
+	line-height: 75px;
+	margin: 272px 418px 16px 418px;
+}
 `;
 
 export const HeroText = styled.h2`
@@ -44,10 +51,16 @@ line-height: 32px;
 text-align: center;
 margin: 0px 20px 24px 20px;
 color: #FFFFFF;
-// @media (min-width: 768px) {
-// 	font-size: 35px;
-// 	line-height: 48px;
-// }
+@media (min-width: 768px) {
+	font-size: 40px;
+	line-height: 48px;
+	margin: 0px 123px 24px 123px;
+}
+
+@media (min-width: 1360px) {
+	line-height: 54px;
+	margin: 0px 2803px 24px 280px;
+}
 `;
 
 export const HeroBtn = styled.button`
@@ -61,7 +74,14 @@ width: 175px;
 height: 57px;
 margin: 0px 72px 104px 73px;
 background: #28A745;
+border: 0px;
 border-radius: 5px;
+@media (min-width: 768px) {
+	margin: 0px 297px 378px 297px;
+}
+@media (min-width: 1360px) {
+	margin: 0px 593px 270px 593px;
+}
 `;
 
 export const BTNWrapper = styled.div`
@@ -76,4 +96,5 @@ font-size: 18px;
 line-height: 25px;
 justify-content: center;
 align-items: center;
+
 `;
