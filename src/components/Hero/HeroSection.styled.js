@@ -15,7 +15,6 @@ background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
 // background-position: 50% 50%;
 // background-size: cover;
 border-radius: 0px;
-//width: 320px;
 height: 533px;
 
 //background-color: red;
